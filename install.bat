@@ -100,14 +100,14 @@ ECHO(
 ECHO Installing 32-bit driver ...
 ECHO Please continue driver installation ...
 PING localhost -n 1 >NUL
-START /wait driver\pnputil /add-driver android_winusb.inf /install /f 2>>%USERPROFILE%\Desktop\adb-installer.log
+START /wait driver\pnputil /add-driver android_winusb.inf /install /subdirs /f 2>>%USERPROFILE%\Desktop\adb-installer.log
 GOTO FINISH
 :x64
 ECHO(
 ECHO Installing 64-bit driver ...
 ECHO Please continue driver installation ...
 PING localhost -n 1 >NUL
-START /wait driver\pnputil /add-driver android_winusb.inf /install /f 2>>%USERPROFILE%\Desktop\adb-installer.log
+START /wait driver\pnputil /add-driver android_winusb.inf /install /subdirs /f 2>>%USERPROFILE%\Desktop\adb-installer.log
 :FINISH
 ECHO(
 ECHO All done!
