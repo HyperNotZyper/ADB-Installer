@@ -6,7 +6,7 @@ ECHO ###########################################################################
 ECHO #                                                                             #
 ECHO #                          15 seconds ADB Installer                           #
 ECHO #                                                                             #
-ECHO #                                version 2.0.0                                #
+ECHO #                                version 2.1.0                                #
 ECHO #                                                                             #
 ECHO #                             Original by Snoop05                             #
 ECHO #                          Modified by HyperNotZyper                          #
