@@ -113,6 +113,5 @@ ECHO(
 ECHO All done!
 CALL :LOG %USERPROFILE%\Desktop\adb-installer.log
 :LOG
-IF %~z1 == 0 DEL %USERPROFILE%\Desktop\adb-installer.log /f /q > nul 2>&1
 PING localhost -n 2 >NUL
 EXIT
