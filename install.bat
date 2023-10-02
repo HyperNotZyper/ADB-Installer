@@ -5,6 +5,9 @@ COLOR 09
 ECHO ###############################################################################
 ECHO #                                                                             #
 ECHO #                          15 seconds ADB Installer                           #
+COLOR 0D
+ECHO #                                    LEGACY                                   #
+COLOR 09
 ECHO #                                                                             #
 ECHO #                                version 2.0.0                                #
 ECHO #                                                                             #
